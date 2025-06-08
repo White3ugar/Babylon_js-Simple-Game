@@ -1,0 +1,153 @@
+{
+	"materials": [],
+	"meshes": [
+		{
+			"name": "polySurface3488_concrete_02.1_0",
+			"id": "0f8a0ab9-04dc-4365-a4ec-84f6afd02d56",
+			"uniqueId": 665,
+			"type": "Mesh",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotationQuaternion": [
+				0,
+				0,
+				0,
+				1
+			],
+			"scaling": [
+				1,
+				1,
+				1
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": 0,
+			"parentId": "11c41013-fd3e-40d1-9bcd-1199e415ee89",
+			"isUnIndexed": false,
+			"geometryId": "6a001c7d-3f3f-4224-9792-6ced4d002cc2",
+			"subMeshes": null,
+			"materialId": "2451aa31-e262-4cae-894c-832b7ddc14d0",
+			"metadata": {
+				"basePoseMatrix": {
+					"0": -1,
+					"1": 0,
+					"2": 0,
+					"3": 0,
+					"4": 0,
+					"5": 1,
+					"6": 0,
+					"7": 0,
+					"8": 0,
+					"9": 0,
+					"10": 1,
+					"11": 0,
+					"12": 30,
+					"13": 0,
+					"14": -219.9857940673828,
+					"15": 1
+				},
+				"originalSourceFile": {
+					"id": "polySurface3488_concrete_02.1_0",
+					"name": "polySurface3488_concrete_02.1_0",
+					"sceneFileName": "Building/asia_building.glb"
+				},
+				"isPickable": false,
+				"script": {
+					"name": "None"
+				},
+				"renderingGroupId": 0
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": false,
+			"overlayAlpha": 0.3,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"delayLoadingFile": "geometries/6a001c7d-3f3f-4224-9792-6ced4d002cc2.babylonbinarymeshdata",
+			"boundingBoxMaximum": [
+				110.5125732421875,
+				165.95465087890625,
+				-148.86016845703125
+			],
+			"boundingBoxMinimum": [
+				-50.5125732421875,
+				154.54415893554688,
+				-291.1114196777344
+			],
+			"_binaryInfo": {
+				"positionsAttrDesc": {
+					"count": 393,
+					"stride": 3,
+					"offset": 0,
+					"dataType": 1
+				},
+				"normalsAttrDesc": {
+					"count": 393,
+					"stride": 3,
+					"offset": 1572,
+					"dataType": 1
+				},
+				"uvsAttrDesc": {
+					"count": 262,
+					"stride": 2,
+					"offset": 3144,
+					"dataType": 1
+				},
+				"indicesAttrDesc": {
+					"count": 363,
+					"stride": 1,
+					"offset": 4192,
+					"dataType": 0
+				},
+				"subMeshesAttrDesc": {
+					"count": 1,
+					"stride": 5,
+					"offset": 5644,
+					"dataType": 0
+				}
+			},
+			"positions": null,
+			"normals": null,
+			"uvs": null,
+			"hasUVs": true,
+			"indices": null
+		}
+	],
+	"multiMaterials": [],
+	"lods": []
+}

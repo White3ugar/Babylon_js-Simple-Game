@@ -1,0 +1,153 @@
+{
+	"materials": [],
+	"meshes": [
+		{
+			"name": "pPlane197_3_rooftop_01.37_0",
+			"id": "bd3658e4-d2ad-4837-b4df-7bb4e919d955",
+			"uniqueId": 870,
+			"type": "Mesh",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotationQuaternion": [
+				0,
+				0,
+				0,
+				1
+			],
+			"scaling": [
+				1,
+				1,
+				1
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": 0,
+			"parentId": "b12f9c40-b440-4924-a64b-f8cdaca344c1",
+			"isUnIndexed": false,
+			"geometryId": "532cf74d-23d2-4941-ae11-cc2b85f2d95e",
+			"subMeshes": null,
+			"materialId": "8ef594bb-0feb-4cfd-b219-b6c50c0ed037",
+			"metadata": {
+				"basePoseMatrix": {
+					"0": -1,
+					"1": 0,
+					"2": 0,
+					"3": 0,
+					"4": 0,
+					"5": 1,
+					"6": 0,
+					"7": 0,
+					"8": 0,
+					"9": 0,
+					"10": 1,
+					"11": 0,
+					"12": 30,
+					"13": 0,
+					"14": -219.9857940673828,
+					"15": 1
+				},
+				"originalSourceFile": {
+					"id": "pPlane197_3_rooftop_01.37_0",
+					"name": "pPlane197_3_rooftop_01.37_0",
+					"sceneFileName": "Building/asia_building.glb"
+				},
+				"isPickable": false,
+				"script": {
+					"name": "None"
+				},
+				"renderingGroupId": 0
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": false,
+			"overlayAlpha": 0.3,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"delayLoadingFile": "geometries/532cf74d-23d2-4941-ae11-cc2b85f2d95e.babylonbinarymeshdata",
+			"boundingBoxMaximum": [
+				117.48211669921875,
+				122.97328186035156,
+				-154.14523315429688
+			],
+			"boundingBoxMinimum": [
+				104.6854248046875,
+				105.39590454101562,
+				-207.14862060546875
+			],
+			"_binaryInfo": {
+				"positionsAttrDesc": {
+					"count": 2052,
+					"stride": 3,
+					"offset": 0,
+					"dataType": 1
+				},
+				"normalsAttrDesc": {
+					"count": 2052,
+					"stride": 3,
+					"offset": 8208,
+					"dataType": 1
+				},
+				"uvsAttrDesc": {
+					"count": 1368,
+					"stride": 2,
+					"offset": 16416,
+					"dataType": 1
+				},
+				"indicesAttrDesc": {
+					"count": 2070,
+					"stride": 1,
+					"offset": 21888,
+					"dataType": 0
+				},
+				"subMeshesAttrDesc": {
+					"count": 1,
+					"stride": 5,
+					"offset": 30168,
+					"dataType": 0
+				}
+			},
+			"positions": null,
+			"normals": null,
+			"uvs": null,
+			"hasUVs": true,
+			"indices": null
+		}
+	],
+	"multiMaterials": [],
+	"lods": []
+}

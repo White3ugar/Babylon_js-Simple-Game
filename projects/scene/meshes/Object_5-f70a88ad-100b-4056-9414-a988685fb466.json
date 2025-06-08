@@ -1,0 +1,164 @@
+{
+	"materials": [],
+	"meshes": [
+		{
+			"name": "Object_5",
+			"id": "f70a88ad-100b-4056-9414-a988685fb466",
+			"uniqueId": 2468,
+			"type": "Mesh",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotationQuaternion": [
+				0,
+				0,
+				0,
+				1
+			],
+			"scaling": [
+				1,
+				1,
+				1
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": 0,
+			"parentId": "f7f4d227-b19f-49a9-8b7c-dece7ebd7731",
+			"isUnIndexed": false,
+			"geometryId": "76360556-9276-4dc2-8bc3-5e9bdbaedfc6",
+			"subMeshes": null,
+			"materialId": "b52afc8b-692f-4624-83fa-e870456bff09",
+			"metadata": {
+				"basePoseMatrix": {
+					"0": -1,
+					"1": 0,
+					"2": 0,
+					"3": 0,
+					"4": 0,
+					"5": 1,
+					"6": 0,
+					"7": 0,
+					"8": 0,
+					"9": 0,
+					"10": 1,
+					"11": 0,
+					"12": -7.450580596923828e-9,
+					"13": 0,
+					"14": 0,
+					"15": 1
+				},
+				"originalSourceFile": {
+					"id": "Object_5",
+					"name": "Object_5",
+					"sceneFileName": "Building/simple_skyscraper.glb"
+				},
+				"isPickable": false
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": false,
+			"overlayAlpha": 0.5,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"delayLoadingFile": "geometries/76360556-9276-4dc2-8bc3-5e9bdbaedfc6.babylonbinarymeshdata",
+			"boundingBoxMaximum": [
+				0.14122025668621063,
+				0.4851190447807312,
+				0.14122024178504944
+			],
+			"boundingBoxMinimum": [
+				-0.14122024178504944,
+				-0.4077380895614624,
+				-0.14122024178504944
+			],
+			"_binaryInfo": {
+				"positionsAttrDesc": {
+					"count": 10266,
+					"stride": 3,
+					"offset": 0,
+					"dataType": 1
+				},
+				"normalsAttrDesc": {
+					"count": 10266,
+					"stride": 3,
+					"offset": 41064,
+					"dataType": 1
+				},
+				"uvsAttrDesc": {
+					"count": 6844,
+					"stride": 2,
+					"offset": 82128,
+					"dataType": 1
+				},
+				"uvs2AttrDesc": {
+					"count": 6844,
+					"stride": 2,
+					"offset": 109504,
+					"dataType": 1
+				},
+				"tangetsAttrDesc": {
+					"count": 13688,
+					"stride": 3,
+					"offset": 136880,
+					"dataType": 1
+				},
+				"indicesAttrDesc": {
+					"count": 8640,
+					"stride": 1,
+					"offset": 191632,
+					"dataType": 0
+				},
+				"subMeshesAttrDesc": {
+					"count": 1,
+					"stride": 5,
+					"offset": 226192,
+					"dataType": 0
+				}
+			},
+			"positions": null,
+			"normals": null,
+			"uvs": null,
+			"hasUVs": true,
+			"uv2s": null,
+			"hasUVs2": true,
+			"tangents": null,
+			"indices": null
+		}
+	],
+	"multiMaterials": [],
+	"lods": []
+}

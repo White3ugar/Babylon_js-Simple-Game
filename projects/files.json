@@ -1,0 +1,156 @@
+{
+	"terrain/brown-background-natural-sand-texture.jpg": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"Character/Ch46_1001_Specular.png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"Environment/grass1-rough.png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"Environment/grass1-albedo3.png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"Environment/grass1-height.png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"Cat/cat1222 (Diffuse).jpeg": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"Environment/grass1-ao.png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	}
+}

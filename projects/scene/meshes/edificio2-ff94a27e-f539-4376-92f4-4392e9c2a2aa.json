@@ -1,0 +1,104 @@
+{
+	"materials": [],
+	"meshes": [
+		{
+			"name": "edificio2",
+			"id": "ff94a27e-f539-4376-92f4-4392e9c2a2aa",
+			"uniqueId": 1828,
+			"type": "Mesh",
+			"position": [
+				207.60000610351562,
+				5.2818474769592285,
+				-78.75467681884766
+			],
+			"rotationQuaternion": [
+				0,
+				1,
+				0,
+				0
+			],
+			"scaling": [
+				2.180000066757202,
+				2.180000066757202,
+				2.180000066757202
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": null,
+			"isUnIndexed": false,
+			"materialId": "default material",
+			"metadata": {
+				"basePoseMatrix": {
+					"0": -1,
+					"1": 0,
+					"2": 0,
+					"3": 0,
+					"4": 0,
+					"5": 1,
+					"6": 0,
+					"7": 0,
+					"8": 0,
+					"9": 0,
+					"10": 1,
+					"11": 0,
+					"12": 0,
+					"13": 0,
+					"14": 0,
+					"15": 1
+				},
+				"originalSourceFile": {
+					"id": "__root__",
+					"name": "__root__",
+					"sceneFileName": "Building/edificio_corficolombiana_colombian_skyscraper.glb"
+				},
+				"isPickable": false,
+				"script": {
+					"name": "None"
+				},
+				"renderingGroupId": 0,
+				"_waitingParentId": null
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": false,
+			"overlayAlpha": 0.5,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"parentId": null
+		}
+	],
+	"multiMaterials": [],
+	"lods": []
+}

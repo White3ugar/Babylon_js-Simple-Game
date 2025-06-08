@@ -1,0 +1,55 @@
+{
+	"tags": null,
+	"position": [
+		-30,
+		0,
+		159.9857940673828
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		0,
+		0,
+		0,
+		1
+	],
+	"scaling": [
+		1,
+		1,
+		1
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "pCube123_2",
+	"id": "e2290011-0c4c-4dd3-8419-7a33843c65fb",
+	"state": "",
+	"metadata": {},
+	"type": "TransformNode",
+	"uniqueId": 828,
+	"parentId": "632cd42c-edee-4571-8ea5-918b3fb50042",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}

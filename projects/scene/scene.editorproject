@@ -1,0 +1,1394 @@
+{
+	"animationGroups": [
+		"Run.json",
+		"Dance.json",
+		"Joy.json",
+		"Pick.json",
+		"Idle.json"
+	],
+	"cameras": [
+		"Camera-01ac6c14-36b8-444d-9da7-05e0ef9cdefc.json"
+	],
+	"materials": [
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [],
+			"json": "materials/ground.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"6a927ea7-51d9-4248-9b80-4d34b53b386e"
+			],
+			"json": "materials/sky.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [],
+			"json": "materials/cube.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [],
+			"json": "materials/Dune.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"09e2ff72-a3a8-4669-a8e7-81af1137791a"
+			],
+			"json": "Character/Material!Ch46_body-314616704.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [],
+			"json": "Character/lambert5SG-lambert5SG.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"cfee1584-5ca2-496b-9fa4-2b60d0dc5c72"
+			],
+			"json": "Environment/Grass3.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"fbfab8c2-ee21-4490-9315-6e8979f70284",
+				"dba96605-725a-4ab3-b6ef-a82302c0b6d4",
+				"0a2ef599-c574-4eea-b1dd-e77604d1c1b7",
+				"6db68e55-233b-441d-8519-8ce24a4ebdbc",
+				"28c6c1e2-6e08-4655-a327-399c74e44e31",
+				"11e4c86b-dc63-4ac8-a3be-bceb3a2b0512",
+				"d2ecae26-88c9-42c1-9b03-b587387a42ac",
+				"a3db5de5-dc83-467b-8d7d-10f8ac4d6a94",
+				"52f7a3b6-3b4f-4f98-ad9e-83f667aee82c",
+				"4e0ff3cd-1633-42a2-8de1-7ee4fe9ccb61",
+				"85594c02-103b-47e6-893c-808936a7edfb",
+				"00c28816-db67-42b7-bbe6-d965d984a5b4",
+				"e1605bd5-e9cf-462d-83c8-aa8821a6fceb",
+				"3879d361-2097-4a5c-b91f-95b0c6fb30ae",
+				"42502c62-dc44-4140-b837-7dba9f9b196c",
+				"90c503bf-1fa4-4f4d-9ea1-7133f91fb2ff",
+				"0641b839-2902-40cb-bd4a-901cd75c3c81",
+				"86c33359-ea06-44fb-8cf2-46b2e1304d4f",
+				"2e5a03fb-7212-4724-8e9d-7ff7c196d076",
+				"6772c74c-edf1-428d-98bc-2dcc24dd9199",
+				"b7d8dc3e-2d3a-4e93-b29a-ba84cb2c704e",
+				"c2a48717-a145-4273-a69e-0604fc6f268b"
+			],
+			"json": "Building/Bake-Bake.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"e92eb8cd-bc11-499e-9134-bc976bdfbb4d"
+			],
+			"json": "Building/concrete_02-concrete_02.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"24f9fd6e-8597-488e-8a0a-05b381514f74"
+			],
+			"json": "Building/concrete_fine-concrete_fine.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"a4be0811-29e1-4138-a2e7-2aca092dca6c"
+			],
+			"json": "Building/concrete-concrete.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"b922d551-d317-47ca-b3c4-24fa078700d8"
+			],
+			"json": "Building/rooftop_01.43-rooftop_01.43.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"4f539a14-cd0c-4aec-a334-368b5a940b7c"
+			],
+			"json": "Building/concrete_02.2-concrete_02.2.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"de3ee2e8-c040-4938-bc52-c9cba84fabb5"
+			],
+			"json": "Building/rooftop_01-rooftop_01.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"5cbfbf8a-76dc-4f7c-a482-83f000b858cc"
+			],
+			"json": "Building/build_01-build_01.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"0f8a0ab9-04dc-4365-a4ec-84f6afd02d56"
+			],
+			"json": "Building/concrete_02.1-concrete_02.1.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"d0aca9cf-ab7b-47f6-8629-25a603d9c38d"
+			],
+			"json": "Building/concrete_fine.1-concrete_fine.1.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"2fd8ebd3-38ee-4216-8b26-a57e6748c317"
+			],
+			"json": "Building/concrete_02.3-concrete_02.3.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"2aceb176-4d31-43a8-a7c7-0ff6fd2d486b"
+			],
+			"json": "Building/rooftop_01.1-rooftop_01.1.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"d1f74c9c-efb1-4e07-8a77-c17b1e959935"
+			],
+			"json": "Building/rooftop_01.5-rooftop_01.5.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"03c6eda5-cfdf-4fa9-9e1f-9beb5c87be4e"
+			],
+			"json": "Building/rooftop_01.2-rooftop_01.2.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"b6178984-8623-4b7d-a361-1281c2b4855e"
+			],
+			"json": "Building/rooftop_01.4-rooftop_01.4.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"4077d1e2-a1b7-4558-8e94-5d5bdbd3a18b"
+			],
+			"json": "Building/rooftop_01.3-rooftop_01.3.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"32b77326-8a79-42e0-8ed8-242d80e0c89a"
+			],
+			"json": "Building/rooftop_01.6-rooftop_01.6.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"8d2f879e-314b-4f1d-881a-534c02baba28"
+			],
+			"json": "Building/rooftop_01.7-rooftop_01.7.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"8e2adbaf-0f88-4cef-a950-4330365aaffa"
+			],
+			"json": "Building/rooftop_01.11-rooftop_01.11.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"277e2e56-ea33-45a7-a151-e84cc9431a72"
+			],
+			"json": "Building/rooftop_01.8-rooftop_01.8.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"434df5bb-7f20-43c6-bf97-301cc8309ae7"
+			],
+			"json": "Building/rooftop_01.10-rooftop_01.10.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"bff0a411-6e3c-40b7-974e-54637233103c"
+			],
+			"json": "Building/rooftop_01.9-rooftop_01.9.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"583b57c2-3d02-4edb-8d2d-276379753d76"
+			],
+			"json": "Building/rooftop_01.12-rooftop_01.12.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"04dfa5aa-fb6f-434a-b812-94d9a37e9106"
+			],
+			"json": "Building/rooftop_01.13-rooftop_01.13.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"733375ae-2396-4fb8-8cff-96e54470e6e3"
+			],
+			"json": "Building/rooftop_01.17-rooftop_01.17.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"6488c7b6-cf10-4744-b673-bc9712a15c0f"
+			],
+			"json": "Building/rooftop_01.14-rooftop_01.14.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"909bd3e2-47dd-447c-969a-6bc5b9dfc5a9"
+			],
+			"json": "Building/rooftop_01.16-rooftop_01.16.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"1b133cc7-25ea-443b-ac81-8f8e198e3f23"
+			],
+			"json": "Building/rooftop_01.15-rooftop_01.15.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"c293626c-56a0-43ef-9016-1b6a355d283b"
+			],
+			"json": "Building/rooftop_01.18-rooftop_01.18.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"21fe1594-c3cc-45c1-9ce1-ae594175f14a"
+			],
+			"json": "Building/rooftop_01.19-rooftop_01.19.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"378f251d-19ad-4609-a827-b0edb3d46bf7"
+			],
+			"json": "Building/rooftop_01.20-rooftop_01.20.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"c8d4ef2e-cbbb-4adb-a34f-5adc4eacad76"
+			],
+			"json": "Building/rooftop_01.26-rooftop_01.26.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"cbbe30a3-71a4-4afe-bd97-4c7d82277f13"
+			],
+			"json": "Building/rooftop_01.21-rooftop_01.21.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"be63e1a5-907b-4be0-b70b-cf8e30dde26c"
+			],
+			"json": "Building/rooftop_01.23-rooftop_01.23.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"c230f04e-c596-4ae3-9808-558a2e03e004"
+			],
+			"json": "Building/rooftop_01.22-rooftop_01.22.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"bd3b66da-57c2-4c81-ab99-c59e46e7c588"
+			],
+			"json": "Building/rooftop_01.24-rooftop_01.24.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"909ad10c-0d84-4d11-b235-c7c5e1b526eb"
+			],
+			"json": "Building/rooftop_01.25-rooftop_01.25.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"516fb0c4-d97c-46c9-b12a-fcc889ba345e"
+			],
+			"json": "Building/rooftop_01.27-rooftop_01.27.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"bd3658e4-d2ad-4837-b4df-7bb4e919d955"
+			],
+			"json": "Building/rooftop_01.37-rooftop_01.37.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"70ebbeec-10f2-4643-9de7-19823524dfb1"
+			],
+			"json": "Building/rooftop_01.33-rooftop_01.33.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"b2af7812-08fd-41f5-87ea-7503c747419d"
+			],
+			"json": "Building/rooftop_01.28-rooftop_01.28.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"e850f743-eddf-4426-868d-40d710a4c389"
+			],
+			"json": "Building/rooftop_01.34-rooftop_01.34.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"3ccd20dd-62d4-4083-bb58-422ad777c247"
+			],
+			"json": "Building/rooftop_01.31-rooftop_01.31.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"635e42eb-eec0-4c3f-ac17-b0d70b102ff0"
+			],
+			"json": "Building/rooftop_01.36-rooftop_01.36.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"c3817549-a89e-4932-89d4-b3774d965de4"
+			],
+			"json": "Building/rooftop_01.32-rooftop_01.32.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"709ab338-77a8-4e13-9265-2f1da3f0a179"
+			],
+			"json": "Building/rooftop_01.30-rooftop_01.30.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"1f4d6590-213a-44f5-aa19-586481ec5fbf"
+			],
+			"json": "Building/rooftop_01.35-rooftop_01.35.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"53bbee67-501d-4c08-94af-c2748a1c17cf"
+			],
+			"json": "Building/rooftop_01.29-rooftop_01.29.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"87bf11f3-f44b-475c-b351-60ba2f8fee89"
+			],
+			"json": "Building/rooftop_01.38-rooftop_01.38.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"1821a520-2898-4e01-b6a0-7156c953e686"
+			],
+			"json": "Building/rooftop_01.41-rooftop_01.41.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"a3ba765e-6e74-46b6-a117-dc77db69a0d3"
+			],
+			"json": "Building/rooftop_01.39-rooftop_01.39.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"83ce6369-4dab-428c-9835-1801bc92507c"
+			],
+			"json": "Building/rooftop_01.40-rooftop_01.40.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"f0845df8-f6b9-4b5b-94f9-7b1765c3e8a4"
+			],
+			"json": "Building/rooftop_01.42-rooftop_01.42.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"665fb919-74bc-4640-a107-bab06daa2aa9"
+			],
+			"json": "Building/rooftop_01.44-rooftop_01.44.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"9db0e4f9-3234-45ed-82ef-c70698a5be95",
+				"a4e4400f-72f8-4b28-a605-670713b9601e"
+			],
+			"json": "Building/material-material.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"d91d272e-d766-4a73-a527-62927b0528dc",
+				"444f8a8a-b2ee-48cf-a755-55d1b6eeecb5"
+			],
+			"json": "Building/material_3-material_3.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"c9a6f06a-fb19-4e48-bed0-0224c9661532",
+				"999bd656-8551-475b-a269-bd1c5662d91e"
+			],
+			"json": "Building/material_0-material_0.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"f70a88ad-100b-4056-9414-a988685fb466",
+				"9fa2ba20-b5d8-4642-ac07-69bcf445ddc9"
+			],
+			"json": "Building/material_1-material_1.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"bffd3c29-b23f-4e39-b9d0-8d4c3f96f5bf",
+				"7b5dcb64-3b35-413b-9572-555067b40964"
+			],
+			"json": "Building/material_2-material_2.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"d3b72c1f-2b59-4433-ab43-6a50b6f2989d",
+				"60653859-9efc-47ac-b883-0d3e21ffffc6",
+				"d57d388c-b448-4a4a-89fc-a60e7095a792",
+				"5a0f7141-f589-400f-9b4c-35589334ed9c"
+			],
+			"json": "Building/material_4-material_4.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"49c9683d-4b02-4c53-8bf8-dfb2b4ab4e8c",
+				"547d8b9d-6ea7-40eb-85bd-f4f0f79f5358",
+				"d542f6ca-778d-46fb-b360-89e812bb12b5",
+				"1a108f58-11f0-48e2-9a63-cd470b9c127d"
+			],
+			"json": "Cat/cat1222-cat1222.material"
+		},
+		{
+			"isMultiMaterial": false,
+			"bindedMeshes": [
+				"ee158733-2a1c-4476-9516-6e7b6ce74b50",
+				"6abcafeb-5ecf-490d-b6ad-791bd266d400",
+				"ca7229f5-86b0-4a24-8fe9-516a1fd200c8",
+				"b47c290c-6188-4e44-8a6e-64f4066e1236"
+			],
+			"json": "Cat/cat223-cat223.material"
+		}
+	],
+	"textures": [
+		"grass1-albedo3.png-cba49c18-d1af-4d06-b663-924cdbd3daa3.json",
+		"grass1-ao.png-11d41ff4-51fe-40ab-bded-63acc32be43a.json",
+		"grass1-normal1-ogl.png-51ccdbff-eaf3-48ab-b6c5-9b426b068ddc.json",
+		"Ch46_1001_Diffuse.png-d9fad7af-0ded-4865-86aa-d446dbe7279f.json",
+		"Ch46_1001_Specular.png-c42b1dba-c575-4b0c-b2ff-4b3add1f1d2b.json",
+		"Ch46_1001_Normal.png-d1e515c0-7eb8-4e77-92f0-b8f4647fd614.json",
+		"lambert5SG (Base Color).png-3c2c3a39-3830-4d9c-a139-dfa9ffb96961.json",
+		"grass1-rough.png-813b5c43-9c01-4bc8-aa09-1dd05cb2f34e.json",
+		"Bake (Base Color).png-5722db5d-a739-402f-aa40-5d4fc02aee3b.json",
+		"Bake (Metallic Roughness).png-4e0672b7-0b43-4a8f-bedf-badde4d0a251.json",
+		"concrete_02 (Base Color).jpeg-6638d62d-b3f2-4f75-a96f-68c0dea85266.json",
+		"concrete_fine (Base Color).jpeg-d6ab041d-998d-497a-88a6-bdac0ce06375.json",
+		"concrete (Base Color).jpeg-0890c8fd-a99e-4297-8d16-37389896e6b3.json",
+		"rooftop_01.43 (Base Color).jpeg-26846ae2-694c-4960-82fe-4f6e36c4ecc0.json",
+		"concrete_02.2 (Base Color).jpeg-f26bfb6b-9481-4784-bae4-763157ca89ed.json",
+		"rooftop_01 (Base Color).jpeg-ceea1fe4-4a84-49dc-bc02-d79a0e4a247c.json",
+		"build_01 (Base Color).jpeg-2f90e375-4e3e-43f3-aa4a-9696f669fcee.json",
+		"concrete_02.1 (Base Color).jpeg-0bf4897a-4997-4c7b-a5ca-dbe5ed1ee438.json",
+		"concrete_fine.1 (Base Color).jpeg-e8ec2f58-5a94-4544-bbee-4ae440288929.json",
+		"concrete_02.3 (Base Color).jpeg-c4b510af-cd84-46f2-971a-21ef6675b715.json",
+		"rooftop_01.1 (Base Color).jpeg-c828d9af-19dc-4a40-8174-a547f1876bce.json",
+		"rooftop_01.5 (Base Color).jpeg-b91d5110-375c-4c56-ac12-a6a8224f6f6f.json",
+		"rooftop_01.2 (Base Color).jpeg-0f31d005-9a85-40bd-9f17-5bc24c93eea1.json",
+		"rooftop_01.4 (Base Color).jpeg-1ea0feb3-520d-4a02-8293-038096352f25.json",
+		"rooftop_01.3 (Base Color).jpeg-0e5f5d8f-d319-4fb4-85f9-2439d29760e9.json",
+		"rooftop_01.6 (Base Color).jpeg-969e0a59-52ff-4973-86c4-deeb3c75e24c.json",
+		"rooftop_01.7 (Base Color).jpeg-4c105408-d546-4654-bb2e-50e31df54304.json",
+		"rooftop_01.11 (Base Color).jpeg-6a3e3fe5-6d57-4b67-8b50-3aa5efab24ba.json",
+		"rooftop_01.8 (Base Color).jpeg-65bb86c3-46fc-4ce8-be75-0a35a0e41b01.json",
+		"rooftop_01.10 (Base Color).jpeg-e88f6f4b-45bd-4062-9392-8bf9d263292a.json",
+		"rooftop_01.9 (Base Color).jpeg-41eea1f2-6fad-402b-bcbe-7422328a2e26.json",
+		"rooftop_01.12 (Base Color).jpeg-45b34606-b389-4fdc-af22-8d6591782d00.json",
+		"rooftop_01.13 (Base Color).jpeg-0ae16350-0cef-40a8-a292-69ecd246a733.json",
+		"rooftop_01.17 (Base Color).jpeg-f4e344ed-59bf-47f6-a868-63196f524b88.json",
+		"rooftop_01.14 (Base Color).jpeg-f63d24f2-29e9-4cfa-ab5d-8c0bcb6a9b27.json",
+		"rooftop_01.16 (Base Color).jpeg-f2437b37-4ae1-4643-b16e-09bb397f43bc.json",
+		"rooftop_01.15 (Base Color).jpeg-33e5e465-39d7-4d92-b58d-f0e6603d3d60.json",
+		"rooftop_01.18 (Base Color).jpeg-a3d6b505-da12-40b3-a869-1c8670d4df23.json",
+		"rooftop_01.19 (Base Color).jpeg-7207f5dd-55af-460c-822d-013e7d670aaa.json",
+		"rooftop_01.20 (Base Color).jpeg-61e3d1cb-0174-4b03-8737-7d5d68f34a7c.json",
+		"rooftop_01.26 (Base Color).jpeg-0595f030-e5a3-4831-bef1-c66b54ba31b4.json",
+		"rooftop_01.21 (Base Color).jpeg-d538ae25-6be8-4952-80d0-4aaf24210f71.json",
+		"rooftop_01.23 (Base Color).jpeg-912d9305-55c4-4713-9492-1acf0f78d3b4.json",
+		"rooftop_01.22 (Base Color).jpeg-78e42bde-a02f-4e5b-b4a1-814822510679.json",
+		"rooftop_01.24 (Base Color).jpeg-45dbcb2e-42b5-471f-bcc9-3ed9e7d292d7.json",
+		"rooftop_01.25 (Base Color).jpeg-9d5181ba-fce8-4c72-b64d-1ae4373e4b28.json",
+		"rooftop_01.27 (Base Color).jpeg-58907f33-d306-48e4-bc46-bd1b8ec7a6f3.json",
+		"rooftop_01.37 (Base Color).jpeg-315c6398-0054-45a9-b9c2-5ad16dc192eb.json",
+		"rooftop_01.33 (Base Color).jpeg-d875e873-f005-4751-8fc6-1a2894b1b523.json",
+		"rooftop_01.28 (Base Color).jpeg-3b6348bd-ea38-4bd2-abdf-bd67dff9f17b.json",
+		"rooftop_01.34 (Base Color).jpeg-35f440f5-2775-482d-84f5-1827701b1ba9.json",
+		"rooftop_01.31 (Base Color).jpeg-5ffdb359-f188-4ebc-94d3-073078cdacee.json",
+		"rooftop_01.36 (Base Color).jpeg-600921b8-b9e2-4b05-b4d5-07922048c66b.json",
+		"rooftop_01.32 (Base Color).jpeg-5b3535d3-dce9-458b-9404-7f0e2fe253cf.json",
+		"rooftop_01.30 (Base Color).jpeg-ecd17a0f-eaf4-4aff-a1e0-9d5f006ff861.json",
+		"rooftop_01.35 (Base Color).jpeg-f6e9aae8-8305-4a0c-9b50-556758d36bc0.json",
+		"rooftop_01.29 (Base Color).jpeg-ea064165-6449-4682-b6b9-daed698e6d67.json",
+		"rooftop_01.38 (Base Color).jpeg-1af0c66a-3363-41dc-b455-d11a55321086.json",
+		"rooftop_01.41 (Base Color).jpeg-537f1c80-f4b0-44f1-829a-28f69bdaa235.json",
+		"rooftop_01.39 (Base Color).jpeg-00b22022-50c8-41ab-b31d-b7af5f3cc66a.json",
+		"rooftop_01.40 (Base Color).jpeg-21fc4214-9ba3-4176-b2d7-f1c20223f779.json",
+		"rooftop_01.42 (Base Color).jpeg-be8875d6-5d36-4802-9c42-4409267b3626.json",
+		"rooftop_01.44 (Base Color).jpeg-6075ea47-9153-4da9-a4fd-34242d2a1c37.json",
+		"material (Diffuse).png-210c14de-415c-48cb-a74d-098b13319911.json",
+		"material (Specular Glossiness).png-1822eaa6-8803-48ea-879a-f5fefb347ca0.json",
+		"material (Normal).png-aa41f8c2-ea2d-4144-b918-188223002763.json",
+		"material_3 (Base Color).jpeg-cb85b5cb-da25-40d1-b17c-699ef8431aa5.json",
+		"material_3 (Metallic Roughness).png-2e4fae22-05d2-4428-bfee-2bff7ca33858.json",
+		"material_3 (Normal).jpeg-7fef176e-c6aa-42be-af73-d36b93fbd683.json",
+		"material_0 (Base Color).jpeg-e529c94b-80fe-41be-aaae-423ad12728aa.json",
+		"material_0 (Metallic Roughness).png-3a2431bf-56ca-4fdb-9792-28a52f7643ac.json",
+		"material_0 (Normal).jpeg-e300fd79-c535-4f45-929b-5889e751b2f6.json",
+		"material_1 (Base Color).jpeg-6729a934-b09d-4eb7-b875-21f188e40c77.json",
+		"material_1 (Metallic Roughness).png-32eeebeb-acc2-4700-abfa-43f23cfdca93.json",
+		"material_1 (Normal).jpeg-b490e34f-bdc9-484f-bd1a-dc3272a75c05.json",
+		"material_2 (Base Color).jpeg-1f4233e8-3591-4239-9c8c-9ebed3306707.json",
+		"material_2 (Metallic Roughness).png-89f3b34c-99d5-4218-b46f-6d948108ce2f.json",
+		"material_2 (Normal).jpeg-84dec220-ead2-408f-b9ff-4a56d330b21e.json",
+		"material_4 (Base Color).jpeg-385e13a8-e1b6-454e-8364-4b4d5e722a98.json",
+		"material_4 (Metallic Roughness).png-f11d44df-e568-4efd-b5d7-26a5f7ac0db4.json",
+		"material_4 (Normal).jpeg-bd010ae2-fab5-49c7-906a-433749cb763b.json",
+		"cat1222 (Diffuse).jpeg-6e77c1aa-2976-4394-9018-409e6854213e.json",
+		"cat1222 (Specular Glossiness).png-7c09b77a-47c5-4d79-9d2e-c5f468ce5b12.json",
+		"cat223 (Diffuse).jpeg-9a82e455-4eb0-438a-948a-2581b7beb3d8.json",
+		"brown-background-natural-sand-texture.jpg-fb66a45b-46fc-4a23-ae0c-ebaf08d3bf26.json",
+		"Desert_Sand_Texture-1203.jpg-40ed12c3-841c-4150-98c5-6c98b87ed323.json"
+	],
+	"meshes": [
+		"sky-6a927ea7-51d9-4248-9b80-4d34b53b386e.json",
+		"Dune-cfee1584-5ca2-496b-9fa4-2b60d0dc5c72.json",
+		"Player-09e2ff72-a3a8-4669-a8e7-81af1137791a.json",
+		"Playground-ca625c6c-b3f1-4fd8-8950-26eedf02cda7.json",
+		"Object_4-fbfab8c2-ee21-4490-9315-6e8979f70284.json",
+		"Object_6-dba96605-725a-4ab3-b6ef-a82302c0b6d4.json",
+		"Object_8-0a2ef599-c574-4eea-b1dd-e77604d1c1b7.json",
+		"Object_10-6db68e55-233b-441d-8519-8ce24a4ebdbc.json",
+		"Object_12-28c6c1e2-6e08-4655-a327-399c74e44e31.json",
+		"Object_14-11e4c86b-dc63-4ac8-a3be-bceb3a2b0512.json",
+		"Object_16-d2ecae26-88c9-42c1-9b03-b587387a42ac.json",
+		"Object_18-a3db5de5-dc83-467b-8d7d-10f8ac4d6a94.json",
+		"Object_20-52f7a3b6-3b4f-4f98-ad9e-83f667aee82c.json",
+		"Object_22-4e0ff3cd-1633-42a2-8de1-7ee4fe9ccb61.json",
+		"Object_24-85594c02-103b-47e6-893c-808936a7edfb.json",
+		"Object_26-00c28816-db67-42b7-bbe6-d965d984a5b4.json",
+		"Object_28-e1605bd5-e9cf-462d-83c8-aa8821a6fceb.json",
+		"Object_30-3879d361-2097-4a5c-b91f-95b0c6fb30ae.json",
+		"Object_32-42502c62-dc44-4140-b837-7dba9f9b196c.json",
+		"Object_34-90c503bf-1fa4-4f4d-9ea1-7133f91fb2ff.json",
+		"Object_36-0641b839-2902-40cb-bd4a-901cd75c3c81.json",
+		"Object_38-86c33359-ea06-44fb-8cf2-46b2e1304d4f.json",
+		"Object_40-2e5a03fb-7212-4724-8e9d-7ff7c196d076.json",
+		"Object_42-6772c74c-edf1-428d-98bc-2dcc24dd9199.json",
+		"Object_44-b7d8dc3e-2d3a-4e93-b29a-ba84cb2c704e.json",
+		"Object_46-c2a48717-a145-4273-a69e-0604fc6f268b.json",
+		"asia_building-a697f471-281b-497f-b64f-a73113908623.json",
+		"apartment_02_fine_concrete_fine_0-24f9fd6e-8597-488e-8a0a-05b381514f74.json",
+		"apartment_02_fine_build_01_0-5cbfbf8a-76dc-4f7c-a482-83f000b858cc.json",
+		"apartment_02_fine_concrete_02_0-e92eb8cd-bc11-499e-9134-bc976bdfbb4d.json",
+		"apartment_02_fine_concrete_0-a4be0811-29e1-4138-a2e7-2aca092dca6c.json",
+		"polySurface3488_concrete_02.1_0-0f8a0ab9-04dc-4365-a4ec-84f6afd02d56.json",
+		"polySurface3488_concrete_fine.1_0-d0aca9cf-ab7b-47f6-8629-25a603d9c38d.json",
+		"polySurface3489_concrete_02.2_0-4f539a14-cd0c-4aec-a334-368b5a940b7c.json",
+		"polySurface3489_rooftop_01_0-de3ee2e8-c040-4938-bc52-c9cba84fabb5.json",
+		"polySurface3490_concrete_02.3_0-2fd8ebd3-38ee-4216-8b26-a57e6748c317.json",
+		"polySurface3490_rooftop_01.1_0-2aceb176-4d31-43a8-a7c7-0ff6fd2d486b.json",
+		"pPlane199_rooftop_01.2_0-03c6eda5-cfdf-4fa9-9e1f-9beb5c87be4e.json",
+		"pPlane200_rooftop_01.3_0-4077d1e2-a1b7-4558-8e94-5d5bdbd3a18b.json",
+		"pCube118_rooftop_01.4_0-b6178984-8623-4b7d-a361-1281c2b4855e.json",
+		"pPlane198_rooftop_01.5_0-d1f74c9c-efb1-4e07-8a77-c17b1e959935.json",
+		"pCube117_rooftop_01.6_0-32b77326-8a79-42e0-8ed8-242d80e0c89a.json",
+		"pPlane197_rooftop_01.7_0-8d2f879e-314b-4f1d-881a-534c02baba28.json",
+		"group26_rooftop_01.8_0-277e2e56-ea33-45a7-a151-e84cc9431a72.json",
+		"pCube116_rooftop_01.9_0-bff0a411-6e3c-40b7-974e-54637233103c.json",
+		"pCube119_rooftop_01.10_0-434df5bb-7f20-43c6-bf97-301cc8309ae7.json",
+		"pCube121_rooftop_01.11_0-8e2adbaf-0f88-4cef-a950-4330365aaffa.json",
+		"pPlane201_rooftop_01.12_0-583b57c2-3d02-4edb-8d2d-276379753d76.json",
+		"pCube122_rooftop_01.13_0-04dfa5aa-fb6f-434a-b812-94d9a37e9106.json",
+		"pCube123_rooftop_01.14_0-6488c7b6-cf10-4744-b673-bc9712a15c0f.json",
+		"pCube124_rooftop_01.15_0-1b133cc7-25ea-443b-ac81-8f8e198e3f23.json",
+		"pCube120_rooftop_01.16_0-909bd3e2-47dd-447c-969a-6bc5b9dfc5a9.json",
+		"pPlane199_2_rooftop_01.17_0-733375ae-2396-4fb8-8cff-96e54470e6e3.json",
+		"pPlane200_2_rooftop_01.18_0-c293626c-56a0-43ef-9016-1b6a355d283b.json",
+		"pCube118_2_rooftop_01.19_0-21fe1594-c3cc-45c1-9ce1-ae594175f14a.json",
+		"pPlane198_2_rooftop_01.20_0-378f251d-19ad-4609-a827-b0edb3d46bf7.json",
+		"pCube117_2_rooftop_01.21_0-cbbe30a3-71a4-4afe-bd97-4c7d82277f13.json",
+		"pPlane197_2_rooftop_01.22_0-c230f04e-c596-4ae3-9808-558a2e03e004.json",
+		"group26_2_rooftop_01.23_0-be63e1a5-907b-4be0-b70b-cf8e30dde26c.json",
+		"pCube116_2_rooftop_01.24_0-bd3b66da-57c2-4c81-ab99-c59e46e7c588.json",
+		"pCube119_2_rooftop_01.25_0-909ad10c-0d84-4d11-b235-c7c5e1b526eb.json",
+		"pCube121_2_rooftop_01.26_0-c8d4ef2e-cbbb-4adb-a34f-5adc4eacad76.json",
+		"pPlane201_2_rooftop_01.27_0-516fb0c4-d97c-46c9-b12a-fcc889ba345e.json",
+		"pCube122_2_rooftop_01.28_0-b2af7812-08fd-41f5-87ea-7503c747419d.json",
+		"pCube123_2_rooftop_01.29_0-53bbee67-501d-4c08-94af-c2748a1c17cf.json",
+		"pCube124_2_rooftop_01.30_0-709ab338-77a8-4e13-9265-2f1da3f0a179.json",
+		"pCube120_2_rooftop_01.31_0-3ccd20dd-62d4-4083-bb58-422ad777c247.json",
+		"pPlane199_3_rooftop_01.32_0-c3817549-a89e-4932-89d4-b3774d965de4.json",
+		"pPlane200_3_rooftop_01.33_0-70ebbeec-10f2-4643-9de7-19823524dfb1.json",
+		"pCube118_3_rooftop_01.34_0-e850f743-eddf-4426-868d-40d710a4c389.json",
+		"pPlane198_3_rooftop_01.35_0-1f4d6590-213a-44f5-aa19-586481ec5fbf.json",
+		"pCube117_3_rooftop_01.36_0-635e42eb-eec0-4c3f-ac17-b0d70b102ff0.json",
+		"pPlane197_3_rooftop_01.37_0-bd3658e4-d2ad-4837-b4df-7bb4e919d955.json",
+		"group26_3_rooftop_01.38_0-87bf11f3-f44b-475c-b351-60ba2f8fee89.json",
+		"pCube116_3_rooftop_01.39_0-a3ba765e-6e74-46b6-a117-dc77db69a0d3.json",
+		"pCube119_3_rooftop_01.40_0-83ce6369-4dab-428c-9835-1801bc92507c.json",
+		"pCube121_3_rooftop_01.41_0-1821a520-2898-4e01-b6a0-7156c953e686.json",
+		"pCube122_3_rooftop_01.42_0-f0845df8-f6b9-4b5b-94f9-7b1765c3e8a4.json",
+		"pCube123_3_rooftop_01.43_0-b922d551-d317-47ca-b3c4-24fa078700d8.json",
+		"pCube124_3_rooftop_01.44_0-665fb919-74bc-4640-a107-bab06daa2aa9.json",
+		"edificio-c2edace8-b597-40ab-83f7-c5e425d5a1f8.json",
+		"Cube.219_tex_0-9db0e4f9-3234-45ed-82ef-c70698a5be95.json",
+		"edificio2-ff94a27e-f539-4376-92f4-4392e9c2a2aa.json",
+		"Cube.219_tex_0-a4e4400f-72f8-4b28-a605-670713b9601e.json",
+		"simpleSkyscraper-2bb6cc6a-d53b-4f44-9cb0-2670ed5ac334.json",
+		"Object_4-c9a6f06a-fb19-4e48-bed0-0224c9661532.json",
+		"Object_5-f70a88ad-100b-4056-9414-a988685fb466.json",
+		"Object_6-bffd3c29-b23f-4e39-b9d0-8d4c3f96f5bf.json",
+		"Object_7-d91d272e-d766-4a73-a527-62927b0528dc.json",
+		"Object_8-d3b72c1f-2b59-4433-ab43-6a50b6f2989d.json",
+		"Object_9-60653859-9efc-47ac-b883-0d3e21ffffc6.json",
+		"simpleSkyscraper2-02fa67b1-7d1d-40ba-9a29-e44cd40f0681.json",
+		"Object_4-999bd656-8551-475b-a269-bd1c5662d91e.json",
+		"Object_5-9fa2ba20-b5d8-4642-ac07-69bcf445ddc9.json",
+		"Object_6-7b5dcb64-3b35-413b-9572-555067b40964.json",
+		"Object_7-444f8a8a-b2ee-48cf-a755-55d1b6eeecb5.json",
+		"Object_8-d57d388c-b448-4a4a-89fc-a60e7095a792.json",
+		"Object_9-5a0f7141-f589-400f-9b4c-35589334ed9c.json",
+		"skeletonViewer_merged-skeletonViewer_merged.json",
+		"__root__-d73cf7d0-b7c2-45bc-8d2b-7d3d95a081ab.json",
+		"cat_cat1222_0-1a108f58-11f0-48e2-9a63-cd470b9c127d.json",
+		"cat_cat223_0-b47c290c-6188-4e44-8a6e-64f4066e1236.json"
+	],
+	"transformNodes": [
+		"SceneManager-55d4b739-fc75-4278-b3d5-778cb15f8b0f.json",
+		"Sketchfab_model-95ead3a6-7de0-4a23-9349-c1db3de1dbab.json",
+		"root-df3b35f8-4ac7-4f83-a609-34b7cee808d1.json",
+		"GLTF_SceneRootNode-5210265f-3092-4429-8253-86738788fa11.json",
+		"Bake procedural_0-135a7622-0795-45ca-9431-8eeb89c08237.json",
+		"Bake procedural.001_1-042d994a-5123-424e-ae0a-d73fb76a6008.json",
+		"Bake procedural.002_2-541dd565-983d-438b-8efe-3263548e6c31.json",
+		"Bake procedural.003_3-3625f2b0-2df7-4c25-bf37-d1118c784a37.json",
+		"Bake procedural.004_4-bc2e331a-392f-4b30-a850-96d416d1ce07.json",
+		"Bake procedural.005_5-978dfa65-06f7-4936-a1b2-c40cc97575e6.json",
+		"Bake procedural.006_6-5836d968-199a-4aab-bbbd-6f8a5a4d209a.json",
+		"Bake procedural.007_7-024af945-3b7a-466e-97bf-a224f2e98934.json",
+		"Bake procedural.008_8-8077489d-9550-4b67-92c9-ab27453b8543.json",
+		"Bake procedural.009_9-c4a7e79f-4839-4284-b1d8-ccc328aaa6ec.json",
+		"Bake procedural.010_10-de29534f-17a1-4a37-b354-fe1682f2da67.json",
+		"Bake procedural.011_11-efd9f3d3-22a9-412e-9656-e7f6b879a7c6.json",
+		"Bake procedural.012_12-deb94243-0ea2-4c42-85c0-22d815df8cdd.json",
+		"Bake procedural.013_13-4a7da1f4-b835-45fd-93c1-abcfa49c4f0e.json",
+		"Bake procedural.014_14-d3581322-ac63-461a-9b80-ad19f1033804.json",
+		"Bake procedural.015_15-81de1274-46d2-4fcb-9c85-d8ac8aba3fdb.json",
+		"Bake procedural.016_16-959aed0b-9d1c-4482-8de7-777db78b5507.json",
+		"Bake procedural.017_17-c4ee0d5a-f47e-4f5e-8549-a962a6b6ccbb.json",
+		"Bake procedural.018_18-b169c058-a603-4463-8ad1-f72c4d7f1270.json",
+		"Bake procedural.019_19-f3916cec-8a62-4ba1-82e4-117955a5a241.json",
+		"Bake procedural.020_20-4aa3e096-ef74-43b3-919b-b20358135d59.json",
+		"Bake procedural.021_21-d4988c45-bfb6-43e0-b04b-d86ade10eb9b.json",
+		"Sketchfab_model-0032e127-1b0f-4848-9052-2f123dfadce2.json",
+		"build_001.fbx-57cab743-8218-4a0b-b4bf-b50678595042.json",
+		"RootNode-5cd973e0-3803-4b60-a3d9-c68e1e6909e2.json",
+		"CINEMA_4D_Editor-0abfbedc-fda1-4fbd-95e7-2fa580a42a6b.json",
+		"Object_4-2c1ba8fe-af84-4bc7-a80c-0b000a37f737.json",
+		"apartment_02_fine-bb4be695-1d0f-4a3c-a92e-c721d3cb6dfc.json",
+		"polySurface3488-11c41013-fd3e-40d1-9bcd-1199e415ee89.json",
+		"polySurface3489-eba3e046-563b-4a2a-9483-8a6de911ff11.json",
+		"polySurface3490-bd4bc874-9754-4563-8336-690daed43462.json",
+		"build_equi_03copy_1-bfa875ab-7f2e-4d99-b8cf-9e9b5df71e6b.json",
+		"pPlane199-a1486bb0-3e15-41f0-8a2e-d2cf452eb035.json",
+		"pPlane200-2d2ad41b-bb03-4ade-a399-ec9dfa4aad35.json",
+		"pCube118-210ef7ce-f7f1-4416-8e1f-38b1a79a06f0.json",
+		"pPlane198-b46d334b-3eef-474d-8e24-732abd564dd2.json",
+		"pCube117-55fd4121-66d1-460d-a71b-7cbf56a276fb.json",
+		"pPlane197-cf87b8e5-9db9-4b73-8ece-dd37dd1928fd.json",
+		"group26-1383ae00-ffe2-47c6-b9be-1e59115e83f0.json",
+		"pCube116-00d1b76d-49c6-4081-b80f-c4254e5610c0.json",
+		"pCube119-92c5c99d-3da9-4352-b022-2d4aa4b0bd69.json",
+		"pCube121-76d9a42d-b7bd-4575-a6ef-92e84c461fe7.json",
+		"pPlane201-1c9524fd-e9a2-4d57-b284-cfcfba8d8b68.json",
+		"pCube122-7b95fa11-e172-4b97-a796-7a68e045f88e.json",
+		"pCube123-2e42e881-6d21-4396-aa34-2337a14e6705.json",
+		"pCube124-dab43b38-1f9e-4338-b4e2-3ad4cb6e6e11.json",
+		"pCube120-7b967a90-2662-408f-8a76-3c3a4c1b986f.json",
+		"build_equi_03copy-632cd42c-edee-4571-8ea5-918b3fb50042.json",
+		"pPlane199_2-74a79d0a-c164-4e6c-8a7b-48623ac42fda.json",
+		"pPlane200_2-8ce27394-0c4a-4446-ad86-9872d0251d32.json",
+		"pCube118_2-8b5ab04f-23a1-4515-95f1-95eaf42a7799.json",
+		"pPlane198_2-d28345d7-b240-4e64-8833-a744dd011104.json",
+		"pCube117_2-0ae5db36-2493-4c5e-8d5c-cdc91ac4b030.json",
+		"pPlane197_2-f0f6657c-b3e2-450f-8673-7ef6ba6b5006.json",
+		"group26_2-6caab1af-72b8-43d7-868b-05b841437b13.json",
+		"pCube116_2-4dcc87a0-3509-439a-a7c7-eab071bda614.json",
+		"pCube119_2-8da8984d-2ba8-41be-89a4-9784ac0c5352.json",
+		"pCube121_2-5d1f39e8-1c85-41c7-94b0-4c159807910c.json",
+		"pPlane201_2-d35f87a9-f767-47ea-84cb-d0a0ecb6cbd6.json",
+		"pCube122_2-7b333a11-bd89-4f60-88bd-04adfa012f88.json",
+		"pCube123_2-e2290011-0c4c-4dd3-8419-7a33843c65fb.json",
+		"pCube124_2-df80f95d-f3cf-4c5a-8d98-16b5bc20640b.json",
+		"pCube120_2-3f227874-0891-4c71-9ff7-c879dcaddb65.json",
+		"build_equi_04copy-15e01531-ec22-4453-ac26-f346dbb023df.json",
+		"pPlane199_3-d59f8d55-86c5-4c74-a283-07164f9dc4a5.json",
+		"pPlane200_3-0aaea50b-bb05-46ea-b860-05826236f19f.json",
+		"pCube118_3-19491ad7-3d2e-46ff-8b03-46804245613c.json",
+		"pPlane198_3-72b4de5a-2068-4d9a-ac37-81e097d88ab8.json",
+		"pCube117_3-7ce11081-f36b-4021-a796-3f5291239936.json",
+		"pPlane197_3-b12f9c40-b440-4924-a64b-f8cdaca344c1.json",
+		"group26_3-d71573ad-a245-466d-b422-227ad9a8a4a1.json",
+		"pCube116_3-54c66075-7bc2-43d4-9336-30bef2d14b1d.json",
+		"pCube119_3-d9311127-249d-4472-bc82-c0a66c4c55d3.json",
+		"pCube121_3-2e14cce2-fe8d-4908-83a3-9083457afc9f.json",
+		"pCube122_3-a2b5abe5-a30b-44ed-a8e3-e31cfa893faa.json",
+		"pCube123_3-3fc9c49a-a921-4cd9-908a-0c057ffe6b18.json",
+		"pCube124_3-9b9e82bb-9f65-412b-834e-cd1103e18e39.json",
+		"Sketchfab_model-5d102a95-0b10-40bc-8ef9-1a3453d3dd2a.json",
+		"cc.fbx-461e64c5-158e-48b2-8358-79625e88c507.json",
+		"RootNode-d81f239b-ffdf-4bbd-bd2f-55963006b065.json",
+		"Cube.219-54c34614-d39f-473b-ad83-14ada2b2e640.json",
+		"Sketchfab_model-5adbbf13-6dfe-4b2b-91fd-94bc62d30db0.json",
+		"cc.fbx-6c687709-d930-494c-86ad-9b9abf79d29a.json",
+		"RootNode-871f8600-59ed-423d-86dd-d1b8123501e1.json",
+		"Cube.219-31b8cfcb-6fe2-495e-8dd6-66551a736409.json",
+		"ScoringManager-26277e91-8607-43a6-b7d0-3502e20f8f22.json",
+		"Sketchfab_model-682d60aa-b10e-4ae7-94a6-81e219a92d1a.json",
+		"root-166bfacd-36f7-4c0b-9dd0-7cd50cad6e3c.json",
+		"GLTF_SceneRootNode-1f97e378-6490-439e-9aa6-f6bc28b26cb5.json",
+		"_0-f7f4d227-b19f-49a9-8b7c-dece7ebd7731.json",
+		"Sketchfab_model-5becd08e-aae6-4b7e-87b4-f75a8c4fad61.json",
+		"root-5b43c1ef-e144-4268-b5fb-94ce5a1500e5.json",
+		"GLTF_SceneRootNode-5069f6de-6e55-49f2-8b14-62eb86f59808.json",
+		"_0-d25a5a12-4bf7-4915-8436-02681d3530d7.json",
+		"Sketchfab_model-5da68d1e-4dfc-47cb-aa0b-59d7bd3c7b32.json",
+		"cat.FBX-ebc31cf2-f1c4-4336-9ed8-b345935cdf00.json",
+		"RootNode-4c81dce9-a835-420e-809d-5c15797918ad.json",
+		"cat-1d9419e5-7806-4d1c-a2f5-b172a69ffcdb.json",
+		"Object_4-8dc7b4fa-9f75-4dc1-bcb2-df06d34e4121.json",
+		"Camera001-f6763bac-504a-4635-9043-f488fc409184.json",
+		"Object_8-caf0ed92-948a-4762-8487-2c242bb734da.json"
+	],
+	"particleSystems": [],
+	"lights": [
+		{
+			"json": "sun-a76adafc-c695-43b9-bc2a-a5b1a01a6419.json",
+			"shadowGenerator": "sun-a76adafc-c695-43b9-bc2a-a5b1a01a6419.json"
+		}
+	],
+	"sounds": [],
+	"morphTargetManagers": [],
+	"reflectionProbes": [],
+	"proceduralTextures": [],
+	"scene": {
+		"autoClear": true,
+		"clearColor": [
+			0.2,
+			0.2,
+			0.3,
+			1
+		],
+		"ambientColor": [
+			1,
+			1,
+			1
+		],
+		"gravity": [
+			0,
+			0,
+			0
+		],
+		"collisionsEnabled": true,
+		"fogEnabled": true,
+		"physicsEnabled": true,
+		"physicsGravity": [
+			0,
+			-9.81,
+			0
+		],
+		"physicsEngine": "CannonJSPlugin",
+		"imageProcessingConfiguration": {
+			"tags": null,
+			"colorCurves": {
+				"tags": null,
+				"_globalHue": 200,
+				"_globalDensity": 80,
+				"_globalSaturation": 80,
+				"_globalExposure": 0,
+				"_highlightsHue": 20,
+				"_highlightsDensity": 80,
+				"_highlightsSaturation": -80,
+				"_highlightsExposure": 0,
+				"_midtonesHue": 30,
+				"_midtonesDensity": 0,
+				"_midtonesSaturation": 0,
+				"_midtonesExposure": 0
+			},
+			"_colorCurvesEnabled": false,
+			"_colorGradingEnabled": false,
+			"_colorGradingWithGreenDepth": true,
+			"_colorGradingBGR": true,
+			"_exposure": 1,
+			"_toneMappingEnabled": false,
+			"_contrast": 1,
+			"vignetteStretch": 0,
+			"vignetteCenterX": 0,
+			"vignetteCenterY": 0,
+			"vignetteWeight": 1.5,
+			"vignetteColor": [
+				0,
+				0,
+				0,
+				0
+			],
+			"vignetteCameraFov": 0.5,
+			"_vignetteBlendMode": 0,
+			"_vignetteEnabled": false,
+			"_ditheringEnabled": false,
+			"_ditheringIntensity": 0.00392156862745098,
+			"_skipFinalColorClamp": false,
+			"_applyByPostProcess": true,
+			"_isEnabled": true
+		},
+		"animations": [],
+		"postProcessesEnabled": true,
+		"metadata": {
+			"script": {
+				"name": "None",
+				"properties": {
+					"playerMesh": {
+						"type": "Node",
+						"value": "6c677df4-878e-4cc5-9c20-f408fc60caa5"
+					},
+					"groundMesh": {
+						"type": "Node",
+						"value": "cfee1584-5ca2-496b-9fa4-2b60d0dc5c72"
+					},
+					"Wreckage": {
+						"type": "Node",
+						"value": "9a324e09-27ac-447f-8fff-ef8f3797638b"
+					},
+					"ground": {
+						"type": "Node",
+						"value": "cfee1584-5ca2-496b-9fa4-2b60d0dc5c72"
+					}
+				}
+			},
+			"postProcesses": {
+				"ssao": {
+					"enabled": true,
+					"json": {
+						"tags": null,
+						"totalStrength": 1.5,
+						"maxZ": 1000,
+						"minZAspect": 0.2,
+						"epsilon": 0.02,
+						"samples": 16,
+						"textureSamples": 1,
+						"_forceGeometryBuffer": false,
+						"_ratio": {
+							"ssaoRatio": 0.5,
+							"blurRatio": 0.5
+						},
+						"_textureType": 0,
+						"radius": 1,
+						"base": 0,
+						"bypassBlur": false,
+						"expensiveBlur": true,
+						"bilateralSamples": 16,
+						"bilateralSoften": 0,
+						"bilateralTolerance": 0,
+						"_name": "ssao",
+						"customType": "SSAO2RenderingPipeline"
+					}
+				},
+				"ssr": {
+					"enabled": false,
+					"json": {
+						"tags": null,
+						"samples": 1,
+						"maxDistance": 1000,
+						"step": 1,
+						"thickness": 0.5,
+						"strength": 1,
+						"reflectionSpecularFalloffExponent": 1,
+						"maxSteps": 1000,
+						"roughnessFactor": 0.2,
+						"selfCollisionNumSkip": 1,
+						"reflectivityThreshold": 0.04,
+						"_ssrDownsample": 0,
+						"ssrDownsample": 0,
+						"blurDispersionStrength": 0.03,
+						"blurDownsample": 0,
+						"enableSmoothReflections": false,
+						"environmentTextureIsProbe": false,
+						"attenuateScreenBorders": true,
+						"attenuateIntersectionDistance": true,
+						"attenuateIntersectionIterations": true,
+						"attenuateFacingCamera": false,
+						"attenuateBackfaceReflection": false,
+						"clipToFrustum": true,
+						"enableAutomaticThicknessComputation": false,
+						"backfaceDepthTextureDownsample": 0,
+						"backfaceForceDepthWriteTransparentMeshes": true,
+						"isEnabled": true,
+						"inputTextureColorIsInGammaSpace": true,
+						"generateOutputInGammaSpace": true,
+						"debug": false,
+						"_name": "ssr",
+						"customType": "SSRRenderingPipeline"
+					}
+				},
+				"screenSpaceReflections": {
+					"enabled": false
+				},
+				"default": {
+					"enabled": true,
+					"json": {
+						"serializedFromEditor": true,
+						"imageProcessing": {
+							"enabled": true,
+							"exposure": 1,
+							"contrast": 1,
+							"fromLinearSpace": true,
+							"toneMappingEnabled": false,
+							"colorCurvesEnabled": false,
+							"colorCurves": {
+								"tags": null,
+								"_globalHue": 200,
+								"_globalDensity": 80,
+								"_globalSaturation": 80,
+								"_globalExposure": 0,
+								"_highlightsHue": 20,
+								"_highlightsDensity": 80,
+								"_highlightsSaturation": -80,
+								"_highlightsExposure": 0,
+								"_midtonesHue": 30,
+								"_midtonesDensity": 0,
+								"_midtonesSaturation": 0,
+								"_midtonesExposure": 0
+							},
+							"colorGradingEnabled": false
+						},
+						"bloom": {
+							"enabled": false,
+							"bloomScale": 0.5,
+							"bloomWeight": 0.15,
+							"bloomKernel": 64,
+							"bloomThreshold": 0.9
+						},
+						"sharpen": {
+							"enabled": true,
+							"edgeAmount": 0.3,
+							"colorAmount": 1
+						},
+						"depthOfField": {
+							"enabled": false,
+							"fStop": 1.4,
+							"focalLength": 150,
+							"focusDistance": 2000,
+							"depthOfFieldBlurLevel": 0
+						},
+						"chromaticAberration": {
+							"enabled": false,
+							"aberrationAmount": 30,
+							"radialIntensity": 0,
+							"direction": [
+								0.707,
+								0.707
+							],
+							"centerPosition": [
+								0.5,
+								0.5
+							]
+						},
+						"grain": {
+							"enabled": false,
+							"animated": false,
+							"intensity": 30
+						},
+						"glowLayer": {
+							"enabled": false
+						},
+						"vignette": {
+							"enabled": false,
+							"vignetteWeight": 1.5,
+							"vignetteBlendMode": 0,
+							"vignetteColor": [
+								0,
+								0,
+								0,
+								0
+							]
+						},
+						"fxaa": {
+							"enabled": true
+						}
+					}
+				},
+				"motionBlur": {
+					"enabled": false
+				}
+			}
+		},
+		"environmentIntensity": 1,
+		"shadowGenerators": [
+			{
+				"className": "CascadedShadowGenerator",
+				"lightId": "a76adafc-c695-43b9-bc2a-a5b1a01a6419",
+				"id": "a76adafc-c695-43b9-bc2a-a5b1a01a6419",
+				"mapSize": 1024,
+				"forceBackFacesOnly": false,
+				"darkness": 0,
+				"transparencyShadow": false,
+				"frustumEdgeFalloff": 0,
+				"bias": 0.00005,
+				"normalBias": 0,
+				"usePercentageCloserFiltering": true,
+				"useContactHardeningShadow": false,
+				"contactHardeningLightSizeUVRatio": 0.1,
+				"filteringQuality": 0,
+				"useExponentialShadowMap": false,
+				"useBlurExponentialShadowMap": false,
+				"useCloseExponentialShadowMap": false,
+				"useBlurCloseExponentialShadowMap": false,
+				"usePoissonSampling": false,
+				"depthScale": 50,
+				"blurBoxOffset": 1,
+				"blurKernel": 1,
+				"blurScale": 2,
+				"useKernelBlur": false,
+				"renderList": [],
+				"numCascades": 4,
+				"debug": false,
+				"stabilizeCascades": false,
+				"lambda": 1,
+				"cascadeBlendPercentage": 0.2,
+				"depthClamp": true,
+				"autoCalcDepthBounds": false,
+				"shadowMaxZ": 5000,
+				"penumbraDarkness": 1,
+				"freezeShadowCastersBoundingInfo": false,
+				"minDistance": 0,
+				"maxDistance": 1
+			}
+		],
+		"sounds": []
+	},
+	"assets": {
+		"meshes": [],
+		"graphs": [],
+		"prefabs": []
+	},
+	"cinematics": [],
+	"project": {
+		"camera": {
+			"tags": null,
+			"ellipsoid": [
+				0.5,
+				1,
+				0.5
+			],
+			"ellipsoidOffset": [
+				0,
+				0,
+				0
+			],
+			"checkCollisions": false,
+			"applyGravity": false,
+			"rotation": [
+				0.6554768805105861,
+				1.6180882201931905,
+				0
+			],
+			"speed": 2,
+			"position": [
+				-162.70666013242467,
+				95.5855636724756,
+				44.255250479637695
+			],
+			"upVector": [
+				0,
+				1,
+				0
+			],
+			"fov": 0.8,
+			"projectionPlaneTilt": 0,
+			"minZ": 1,
+			"maxZ": 2833873334284.665,
+			"inertia": 0.5,
+			"mode": 0,
+			"layerMask": 268435455,
+			"fovMode": 0,
+			"cameraRigMode": 0,
+			"name": "Editor Camera",
+			"id": "b5ff9af3-8573-45f3-b73f-fb766cfa4a7d",
+			"state": "",
+			"metadata": {
+				"script": {
+					"name": "None"
+				},
+				"detached": false
+			},
+			"uniqueId": 7,
+			"type": "EditorCamera",
+			"inputsmgr": {
+				"FreeCameraKeyboardMoveInput": {
+					"tags": null,
+					"keysUp": [
+						87
+					],
+					"keysUpward": [
+						69
+					],
+					"keysDown": [
+						83
+					],
+					"keysDownward": [
+						81
+					],
+					"keysLeft": [
+						65
+					],
+					"keysRight": [
+						68
+					],
+					"rotationSpeed": 0.5,
+					"keysRotateLeft": [],
+					"keysRotateRight": [],
+					"keysRotateUp": [],
+					"keysRotateDown": []
+				},
+				"FreeCameraMouseInput": {
+					"tags": null,
+					"buttons": [
+						0,
+						1,
+						2
+					],
+					"angularSensibility": 500
+				},
+				"FreeCameraMouseWheelInput": {
+					"tags": null,
+					"wheelXMoveRelative": 0,
+					"wheelYMoveRelative": 2,
+					"wheelPrecisionX": 3,
+					"wheelPrecisionY": 3,
+					"wheelPrecisionZ": 3
+				}
+			},
+			"animations": [],
+			"ranges": [],
+			"isEnabled": true
+		}
+	},
+	"postProcesses": {
+		"custom": [],
+		"ssao": {
+			"enabled": true,
+			"json": {
+				"tags": null,
+				"totalStrength": 1.5,
+				"maxZ": 1000,
+				"minZAspect": 0.2,
+				"epsilon": 0.02,
+				"samples": 16,
+				"textureSamples": 1,
+				"_forceGeometryBuffer": false,
+				"_ratio": {
+					"ssaoRatio": 0.5,
+					"blurRatio": 0.5
+				},
+				"_textureType": 0,
+				"radius": 1,
+				"base": 0,
+				"bypassBlur": false,
+				"expensiveBlur": true,
+				"bilateralSamples": 16,
+				"bilateralSoften": 0,
+				"bilateralTolerance": 0,
+				"_name": "ssao",
+				"customType": "SSAO2RenderingPipeline"
+			}
+		},
+		"ssr": {
+			"enabled": false,
+			"json": {
+				"tags": null,
+				"samples": 1,
+				"maxDistance": 1000,
+				"step": 1,
+				"thickness": 0.5,
+				"strength": 1,
+				"reflectionSpecularFalloffExponent": 1,
+				"maxSteps": 1000,
+				"roughnessFactor": 0.2,
+				"selfCollisionNumSkip": 1,
+				"reflectivityThreshold": 0.04,
+				"_ssrDownsample": 0,
+				"ssrDownsample": 0,
+				"blurDispersionStrength": 0.03,
+				"blurDownsample": 0,
+				"enableSmoothReflections": false,
+				"environmentTextureIsProbe": false,
+				"attenuateScreenBorders": true,
+				"attenuateIntersectionDistance": true,
+				"attenuateIntersectionIterations": true,
+				"attenuateFacingCamera": false,
+				"attenuateBackfaceReflection": false,
+				"clipToFrustum": true,
+				"enableAutomaticThicknessComputation": false,
+				"backfaceDepthTextureDownsample": 0,
+				"backfaceForceDepthWriteTransparentMeshes": true,
+				"isEnabled": true,
+				"inputTextureColorIsInGammaSpace": true,
+				"generateOutputInGammaSpace": true,
+				"debug": false,
+				"_name": "ssr",
+				"customType": "SSRRenderingPipeline"
+			}
+		},
+		"screenSpaceReflections": {
+			"enabled": false
+		},
+		"default": {
+			"enabled": true,
+			"json": {
+				"serializedFromEditor": true,
+				"imageProcessing": {
+					"enabled": true,
+					"exposure": 1,
+					"contrast": 1,
+					"fromLinearSpace": true,
+					"toneMappingEnabled": false,
+					"colorCurvesEnabled": false,
+					"colorCurves": {
+						"tags": null,
+						"_globalHue": 200,
+						"_globalDensity": 80,
+						"_globalSaturation": 80,
+						"_globalExposure": 0,
+						"_highlightsHue": 20,
+						"_highlightsDensity": 80,
+						"_highlightsSaturation": -80,
+						"_highlightsExposure": 0,
+						"_midtonesHue": 30,
+						"_midtonesDensity": 0,
+						"_midtonesSaturation": 0,
+						"_midtonesExposure": 0
+					},
+					"colorGradingEnabled": false
+				},
+				"bloom": {
+					"enabled": false,
+					"bloomScale": 0.5,
+					"bloomWeight": 0.15,
+					"bloomKernel": 64,
+					"bloomThreshold": 0.9
+				},
+				"sharpen": {
+					"enabled": true,
+					"edgeAmount": 0.3,
+					"colorAmount": 1
+				},
+				"depthOfField": {
+					"enabled": false,
+					"fStop": 1.4,
+					"focalLength": 150,
+					"focusDistance": 2000,
+					"depthOfFieldBlurLevel": 0
+				},
+				"chromaticAberration": {
+					"enabled": false,
+					"aberrationAmount": 30,
+					"radialIntensity": 0,
+					"direction": [
+						0.707,
+						0.707
+					],
+					"centerPosition": [
+						0.5,
+						0.5
+					]
+				},
+				"grain": {
+					"enabled": false,
+					"animated": false,
+					"intensity": 30
+				},
+				"glowLayer": {
+					"enabled": false
+				},
+				"vignette": {
+					"enabled": false,
+					"vignetteWeight": 1.5,
+					"vignetteBlendMode": 0,
+					"vignetteColor": [
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"fxaa": {
+					"enabled": true
+				}
+			}
+		},
+		"motionBlur": {
+			"enabled": false
+		}
+	},
+	"physicsEnabled": true
+}

@@ -1,0 +1,55 @@
+{
+	"tags": null,
+	"position": [
+		244.3411102294922,
+		262.75469970703125,
+		-246.67343139648438
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		-0.21978092016743483,
+		0.8829242416151103,
+		0.10021994540757366,
+		-0.4026128358011865
+	],
+	"scaling": [
+		1.0000000156685134,
+		0.9999999811339932,
+		1.0000000026344598
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "CINEMA_4D_Editor",
+	"id": "0abfbedc-fda1-4fbd-95e7-2fa580a42a6b",
+	"state": "",
+	"metadata": {},
+	"type": "TransformNode",
+	"uniqueId": 645,
+	"parentId": "5cd973e0-3803-4b60-a3d9-c68e1e6909e2",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}

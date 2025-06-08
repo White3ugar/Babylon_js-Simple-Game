@@ -1,0 +1,55 @@
+{
+	"tags": null,
+	"position": [
+		-0.19299516081809998,
+		0.44290387630462646,
+		-0.10274966061115265
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		0,
+		0,
+		0,
+		1
+	],
+	"scaling": [
+		1,
+		1,
+		1
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "Bake procedural.015_15",
+	"id": "81de1274-46d2-4fcb-9c85-d8ac8aba3fdb",
+	"state": "",
+	"metadata": {},
+	"type": "TransformNode",
+	"uniqueId": 492,
+	"parentId": "5210265f-3092-4429-8253-86738788fa11",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}
