@@ -4,6 +4,7 @@ import * as BABYLON from "@babylonjs/core/Legacy/legacy";
 import {onKeyboardEvent, visibleInInspector } from "./decorators";
 import { MessageBus } from './MessageBus'; // if using modules
 import ScenePhysicsSetup from "./ScenePhysicsSetup";
+import { Console } from "console";
 
 
 export default class PlayerController2 extends Node {
@@ -128,7 +129,7 @@ export default class PlayerController2 extends Node {
 
         if(this.inputMap["1"] && this.unlock1 && !this.isPerformingEmote){
             this.isPerformingEmote = true;
-            this.playAnimation("Joy");
+            this.playAnimation("Cheer");
             setTimeout(() => {
                 this.playAnimation("Idle");
                 this.isPerformingEmote = false;
@@ -137,7 +138,7 @@ export default class PlayerController2 extends Node {
 
         if(this.inputMap["2"] && this.unlock2 && !this.isPerformingEmote){
             this.isPerformingEmote = true;
-            this.playAnimation("Dance");
+            this.playAnimation("FinalDance");
             setTimeout(() => {
                 this.playAnimation("Idle");
                 this.isPerformingEmote = false;
@@ -252,75 +253,72 @@ export default class PlayerController2 extends Node {
 
         //Pick the ring
         this.scene.onPointerObservable.add((pointerInfo) => {
-            if (pointerInfo.type === BABYLON.PointerEventTypes.POINTERPICK) {
-                const pickedMesh = pointerInfo.pickInfo?.pickedMesh;
+    if (pointerInfo.type === BABYLON.PointerEventTypes.POINTERPICK) {
+        const pickedMesh = pointerInfo.pickInfo?.pickedMesh;
 
-                if (pickedMesh?.name.startsWith("catClone") && player) {
-                    
-                    //const distance = BABYLON.Vector3.Distance(pickedMesh.position, player.position);
-                    const catPos = pickedMesh.getAbsolutePosition();
-                    const playerPos = player.getAbsolutePosition();
-                    const distance = BABYLON.Vector3.Distance(catPos, playerPos);
+        if (pickedMesh?.name.startsWith("catClone") && player) {
+            const catPos = pickedMesh.getAbsolutePosition();
+            const playerPos = player.getAbsolutePosition();
+            const distance = BABYLON.Vector3.Distance(catPos, playerPos);
 
-                    const pickupRange = 3.0; // Max distance allowed to pick up
+            const pickupRange = 3.0;
 
-                    if (distance <= pickupRange && !this.isPicking) {
-                        this.isPicking = true;
-                        this.playAnimation("Pick");
-                        console.log(`Picked up: ${pickedMesh.name} (distance: ${distance.toFixed(2)})`);
+            if (distance <= pickupRange && !this.isPicking) {
+                this.isPicking = true;
+                this.playAnimation("Pick");
+                console.log(`Picked up: ${pickedMesh.name} (distance: ${distance.toFixed(2)})`);
 
-                        // Send the message to remove the ring
-                        ScenePhysicsSetup.Instance?.onMessage("removeRing", pickedMesh, this);
+                // Send the message to remove the ring
+                ScenePhysicsSetup.Instance?.onMessage("removeRing", pickedMesh, this);
 
-                        // Increase score
-                        this.score += 1; // or any value
-                        console.log(`Score: ${this.score}`);
-                        
-                        // 🔔 Broadcast message
-                        MessageBus.notifyObservers({
-                            name: "ScoreUpdate",
-                            data: { score: this.score },
-                            sender: this
-                        });
+                // Increase score
+                this.score += 1;
+                console.log(`Score: ${this.score}`);
 
-                        // Set a timeout to go back to Idle after animation ends
+                // Notify score update
+                MessageBus.notifyObservers({
+                    name: "ScoreUpdate",
+                    data: { score: this.score },
+                    sender: this
+                });
+
+                // After Pick animation completes (3 seconds), check score and play additional animations
+                setTimeout(() => {
+                    // Animation based on score milestone
+                    if (this.score === 5) {
+                        console.log("Score reached 5, playing cheer animation");
+                        this.playAnimation("Cheer");
+                        this.unlock1 = true;
+
                         setTimeout(() => {
+                            this.playAnimation("Idle");
                             this.isPicking = false;
-                            this.playAnimation("Idle"); // Return to idle
-                        }, 3000); // Adjust to match the length of the Pick animation (in ms)
+                        }, 3000);
+                    } else if (this.score === 10) {
+                        this.playAnimation("FinalDance");
+                        this.unlock2 = true;
 
-                        if (this.score >= this.targetScore) {
-                            switch(this.targetScore){
-                                case 5 :
-                                    this.playAnimation("Joy");                                                            // Set a timeout to go back to Idle after animation ends
-                                    setTimeout(() => {
-                                        //this.isPicking = false;
-                                        this.playAnimation("Idle"); // Return to idle
-                                    }, 3000); // Adjust to match the length of the Pick animation (in ms)
-                                    this.unlock1 = true
-                                    break;
-                                case 10:
-                                    this.playAnimation("Dance");
-                                    setTimeout(() => {
-                                        //this.isPicking = false;
-                                        this.playAnimation("Idle"); // Return to idle
-                                    }, 3000); // Adjust to match the length of the Pick animation (in ms)
-                                    this.unlock2 = true
-                                    break;
-                            }
-                            this.targetScore *= 2;
-                        }
-
-
-                        
-
-                        // Optionally hide or dispose GUI here
+                        setTimeout(() => {
+                            this.playAnimation("Idle");
+                            this.isPicking = false;
+                        }, 3000);
                     } else {
-                        console.log(`Too far to pick up: ${distance.toFixed(2)} units away`);
+                        this.playAnimation("Idle");
+                        this.isPicking = false;
                     }
-                }
+
+                    // Double the targetScore after reaching it
+                    if (this.score === this.targetScore) {
+                        this.targetScore *= 2;
+                    }
+                }, 3000); // Delay to match "Pick" animation duration
+            } else {
+                console.log(`Too far to pick up: ${pickedMesh.name}, ${distance.toFixed(2)} units away`);
             }
-        });
+        }
+    }
+});
+
     }
 
     public onMessage(name: string, data: any, sender: any): void {

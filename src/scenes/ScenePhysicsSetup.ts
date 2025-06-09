@@ -136,7 +136,7 @@ export default class ScenePhysicsSetup extends BABYLON.TransformNode {
                 // }
                 setTimeout(() => {
                     mesh.dispose();
-                }, 2000);
+                }, 2200);
                 break;
         }
     }
